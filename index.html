@@ -1,0 +1,147 @@
+
+<html>
+<head>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>Event</title>
+</head>
+<body>
+    
+    <!-- Cover section -->
+
+    <section class="cover w-100 vh-100 " id="home">
+        
+        <div class="layer w-100 vh-100 text-white d-flex justify-content-center align-items-center position-relative">
+                <div class=" text-center">
+                    <h1>Egyptian Party</h1>
+                    <p>Let's Have Fun</p>
+                </div>
+                <p class=" text-white open-btn p-3 h4 pointer">☰ open</p>
+        </div>
+    </section>
+
+    <!-- side nav -->
+    <div class=" side-nav vh-100 " >                        
+        <div class=" d-flex justify-content-end ">
+            <p class=" p-4 text-white h3 pointer color-hover" id="exit-btn">X</p>
+        </div>
+        <div>
+            <a href="#home" class="color-hover">HOME</a>
+            <a href="#details" class="color-hover">Details</a>
+            <a href="#duration" class="color-hover">Duration</a>
+            <a href="#Contact" class="color-hover">Contact</a>
+        </div>
+        
+    </div>
+
+    <!-- performers section -->
+
+    <section class=" py-5 d-flex justify-content-center " id="details">
+        
+        <div class=" w-50 text-center performers">
+            <h3 class=" pointer">Frist Performer</h3>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla quia aspernatur optio quod. Nostrum, quidem voluptas possimus repellendus aspernatur facere officiis laborum sapiente aperiam corrupti voluptatibus, aliquam incidunt hic!</p>
+
+            <h3 class=" pointer">Second Performer</h3>
+            <p class=" d-non">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla quia aspernatur optio quod. Nostrum, quidem voluptas possimus repellendus aspernatur facere officiis laborum sapiente aperiam corrupti voluptatibus, aliquam incidunt hic!</p>
+            
+            <h3 class=" pointer">Third Performer</h3>
+            <p class=" d-non">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla quia aspernatur optio quod. Nostrum, quidem voluptas possimus repellendus aspernatur facere officiis laborum sapiente aperiam corrupti voluptatibus, aliquam incidunt hic!</p>
+            
+            <h3 class=" pointer">Fourth Performer</h3>
+            <p class=" d-non">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla quia aspernatur optio quod. Nostrum, quidem voluptas possimus repellendus aspernatur facere officiis laborum sapiente aperiam corrupti voluptatibus, aliquam incidunt hic!</p>
+            
+        </div>
+
+    </section>
+
+    <!-- counter section -->
+
+    <section class=" bg-count" id="duration">
+        
+        <div class="layer text-center w-100 py-5 px-4">
+            
+            <h2 class=" text-white under-line position-relative py-2">Event Countdown</h2>
+
+            <div class="container">
+                <div class="row text-white">
+
+                    <div class=" col-md-3 my-3">
+                        <div class=" d-flex justify-content-center align-items-center border p-5 ">
+                            <h3 id="days">-25 D</h3>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-3 my-3">
+                        <div class=" d-flex justify-content-center align-items-center border p-5">
+                            <h3 id="hours">-25 D</h3>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-3 my-3">
+                        <div class=" d-flex justify-content-center align-items-center border p-5">
+                            <h3 id="mins">-25 D</h3>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-3 my-3">
+                        <div class=" d-flex justify-content-center align-items-center border p-5">
+                            <h3 id="secs">-25 D</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- contact section -->
+    <section class=" p-5" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6 text-color">
+                    <h2 class=" fw-600">JOIN US</h2>
+                    <p class=" h5">Lorem ipsum dolor sit amet.</p>
+                    <h5 class=" fw-600 pt-3">CONTACT INFO</h5>
+                    <p class=" h5 pb-2">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+                    
+                    <div class=" d-flex py-2">
+                        <span class="material-symbols-outlined px-2">pin_drop</span>
+                        <p> New Street 22545, Nexa Road, New York City, USA</p>
+                    </div>
+                    
+                    <div class=" d-flex py-2">
+                        <span class="material-symbols-outlined px-2">mail</span>
+                        <p>  hello@uigrid.com</p>
+                    </div>
+
+                    <div class=" d-flex py-2">
+                        <span class="material-symbols-outlined px-2">call</span>
+                        <p>  001-000-000-000</p>
+                    </div>
+
+                </div>
+
+
+                <div class=" col-md-6">
+                    <input type="text" placeholder="Enter Name" class=" form-control fs-in my-3"/>
+                    <input type="text" placeholder="Enter Email" class=" form-control fs-in my-3 "/>
+                    <textarea name="message" id="message" class="form-control w-100 fs-in" rows=" 7" placeholder=" Enter Message"></textarea>
+                    <p class="my-3"> <span class=" h4 " id="numOfChar">100</span> Character Reamining</p>
+                    <button class=" btn bg-danger text-white">SEND MESSAGE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
